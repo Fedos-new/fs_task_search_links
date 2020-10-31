@@ -1,1 +1,28 @@
-.fs-task {}
+.fs-task {
+    position: fixed;
+    z-index: 99999999;
+    top: 10px;
+    left: 10px;
+}
+
+.search-box {
+    display: block;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    max-height: 90vh;
+    overflow-x: hidden;
+}
+
+.input-search {
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.counter {
+    font-size: 14px;
+}
+
+.list a {
+    display: block;
+}
